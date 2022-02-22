@@ -9,7 +9,7 @@ class Config
     public const BD_SERVER = 'localhost';
     public const BD_USER = 'root';
     public const BD_PASSWORD = '';
-    public const BD_DB = 'table_test_php';
+    public const BD_DB = 'modif_donnees';
 
 }
 

@@ -17,7 +17,6 @@ class Connect
                 self::$pdo = new PDO($dsn,Config::BD_USER,Config::BD_PASSWORD);
                 self::$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
                 self::$pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_ASSOC);
-                echo "ok";
             }
             catch (PDOException $e) {
                 die();
